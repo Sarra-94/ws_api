@@ -1,0 +1,13 @@
+.listNumbers {
+  list-style: none;
+  display: flex;
+}
+.listNumbers li {
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.listNumbers li.active {
+  background-color: black;
+  color: white;
+}
